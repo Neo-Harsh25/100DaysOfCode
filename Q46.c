@@ -1,0 +1,38 @@
+/*
+
+Q46: Write a program to print the following pattern:
+*****
+*****
+*****
+*****
+*****
+
+*/
+
+/*
+Sample Test Cases:
+Input 1:
+
+Output 1:
+*****
+*****
+*****
+*****
+*****
+
+*/
+
+#include <stdio.h>
+int main() {
+    int i=1, j;
+    while(i<=5) {
+        j=1;
+        while(j<=5) {
+            printf("*");
+            j++;
+        }
+        printf("\n");
+        i++;
+    }
+    return 0;
+}
